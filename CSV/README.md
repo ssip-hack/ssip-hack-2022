@@ -22,6 +22,7 @@ Contains the details of each column in the different dataset. (For the reference
 | no_of_siblings      | int    |                                                                     |
 | Adhaar_No.          | int    | Works as an unique key                                              |
 | Address             | string |                                                                     |
+| state               | string |                                                                     |
 | PinCode             | int    |                                                                     |
 | Mobile_Number       | int    |                                                                     |
 | Contact_email_id    | string |                                                                     |
@@ -33,6 +34,7 @@ Contains the details of each column in the different dataset. (For the reference
 | cwsn                | int    | yes-1, no-0                                                         |
 | indian_nationality  | int    | yes-1, no-0                                                         |
 | out_of_school_child | int    | yes-1, no-0                                                         |
+| dropped_contnued    | int    | continued-0, dropped-1                                              |
 
 ---
 
@@ -87,8 +89,34 @@ Contains the details of each column in the different dataset. (For the reference
 
 ---
 
+# 5. Statewise Dataset - dropout rate
+
+| Column name         | Type   | Description   |
+| ------------------- | ------ | ------------- |
+| state_ut            | string |               |
+| year                | int    | range of year |
+| primary_boys        | int    |               |
+| primary_girls       | int    |               |
+| upper_primary_boys  | int    |               |
+| upper_primary_girls | int    |               |
+| upper_primary_total | int    |               |
+| secondary_boys      | int    |               |
+| secondary_girls     | int    |               |
+| secondary_total     | int    |               |
+| hr_secondary_boys   | int    |               |
+| hr_secondary_girls  | int    |               |
+| hr_secondary_total  | int    |               |
+
+[Drop Out Rate State-wise](../Drop%20out%20rate%20india/DOR.csv)
+
+---
+
 # 5. Data Scrapped from sample dataset
 
 [Drop Out Rate State-wise](../Drop%20out%20rate%20india/DOR.csv)
 [Academic Success and dropout](../student%20academic%20success%20and%20drop%20out/dataset.csv)
 [Student Dropout India 2015-16](../student%20dropout%202016/studentDropIndia_20161215.csv)
+
+---
+
+> Official data publication: [UDISE+](http://www.udiseplus.gov.in)
