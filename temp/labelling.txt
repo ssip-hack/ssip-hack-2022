@@ -1,0 +1,19 @@
+orphan - 1
+occupation of father and mother - 1
+education of father and mother - 1
+cwsn - 1
+pwd - 1
+debt - 1
+no. of children > 2
+bpl_beneficiary
+ews
+social_category
+minority_group
+annual income == 0
+status_in_previous_year = 4
+results_in_previous_year_type = 3,2
+mental_issues = 1
+
+-- 
+Remaining work:
+

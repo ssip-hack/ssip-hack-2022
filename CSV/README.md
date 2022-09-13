@@ -120,3 +120,5 @@ Contains the details of each column in the different dataset. (For the reference
 ---
 
 > Official data publication is done by: [UDISE+](http://www.udiseplus.gov.in)
+> stats and publications: [UDISE+ Dashboard](https://dashboard.udiseplus.gov.in/#/reportDashboard/sReport)
+

@@ -1,0 +1,16 @@
+Aim: Student dropout analysis
+----
+Abstract: Data provide -> Analyse -> Prediction
+
+Analyse - Dropout ratio > beneficiary work increase
+					Prediction -> Dropout chances high then personalised approach to that student
+
+Benefit - Student dropout ratio decrease, and performance, skills and education will increase
+
+Tools & Technologies - Python, MS Excel, Pandas & Machine learning libraries
+
+Approach - Machine learning models are trained on the pre-existing data, and analysed using different perspectives. Prediction models are created for each new data entry, and tested upon dataframes.
+
+Features - Dataset analysing, Predictions and accurate information about dropout of students. The data can be used to improve the existing education system, and overcome the barriers of the current system.
+
+Future - Future of the prediction system is brighten as it will be more beneficiary to the education system. As datasets will become more and more accurate - it will be become more benefitial to the students. The dropout rate will decreased thus, the education rate will be improvised.
