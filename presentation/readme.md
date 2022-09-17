@@ -63,5 +63,8 @@ Which are the details we are going to take?
 
 ---
 
-## Flow of the project
+## Generated data
+
+    - label
+    - prediction
 
