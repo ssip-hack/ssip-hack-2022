@@ -3,7 +3,7 @@ import { Component } from "react";
 export default class Header extends Component {
   render() {
     return (
-      <header class="p-3 text-bg-dark">
+      <header class="p-3 text-bg-light">
         <div class="container">
           <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
             <a
