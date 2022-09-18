@@ -21,7 +21,13 @@ export default class Header extends Component {
 
             <div class="text-end">
               <button type="button" class="btn btn-outline-light me-2">
-                Login
+                <a href="#student_login">Student Login</a>
+              </button>
+              <button type="button" class="btn btn-outline-light me-2">
+                <a href="#admin_login">Admin Login</a>
+              </button>
+              <button type="button" class="btn btn-outline-light me-2">
+                <a href="#school_login">School Login</a>
               </button>
               <button type="button" class="btn btn-warning">
                 Register School

@@ -1,19 +1,19 @@
 import { Component } from "react";
 
-export default class SchoolLogin extends Component {
+export default class AdminLogin extends Component {
   render() {
     return (
       <div
-        class="text-center school-login-body row"
+        class="text-center admin-login-body row"
         data-new-gr-c-s-check-loaded="14.1080.0"
         data-gr-ext-installed=""
       >
         <div className="col-3"></div>
-        <div className="col-6">
+        <div className="col-6 bg-light">
           <main class="form-signin w-100 m-auto">
             <form>
-              <h1 id="school_login" class="h3 mb-3 fw-normal">
-                Sign in as a school
+              <h1 class="h3 mb-3 fw-normal" id="admin_login">
+                Sign in as an Admin
               </h1>
 
               <div class="form-floating">
@@ -24,7 +24,7 @@ export default class SchoolLogin extends Component {
                   placeholder="school code"
                 />
                 <br />
-                <label for="floatingInput">School Code</label>
+                <label for="floatingInput">User Code</label>
               </div>
               <div class="form-floating">
                 <input
