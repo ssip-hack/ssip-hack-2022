@@ -26,6 +26,7 @@ export default class CasteCategoryDetails extends Component {
               <option>0 - no</option>
             </select>
           </div>
+          <hr />
         </div>
       </div>
     );

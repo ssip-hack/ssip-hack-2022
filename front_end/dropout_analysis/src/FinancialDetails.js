@@ -36,6 +36,7 @@ export default class FinancialDetails extends Component {
                 <option>0 - no</option>
               </select>
             </div>
+            <hr />
           </form>
         </div>
       </div>

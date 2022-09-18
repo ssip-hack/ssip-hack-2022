@@ -13,6 +13,7 @@ export default class DetailsForm extends Component {
           <div className="row">
             <br />
             <hr />
+            <div className="col-3"></div>
             <div className="col">
               &nbsp;&nbsp;
               <a href="#student_details">Student Details</a>&nbsp;&nbsp;
@@ -40,6 +41,10 @@ export default class DetailsForm extends Component {
             <button className="btn btn-primary">Submit</button>
           </div>
         </div>
+        <br />
+        <br />
+        <br />
+        <br />
       </div>
     );
   }

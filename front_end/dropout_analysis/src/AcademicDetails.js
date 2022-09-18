@@ -110,6 +110,15 @@ export default class AcademicDetails extends Component {
                 placeholder="Suspension Days"
               />
             </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">
+                Student is dropped or contnued?
+              </label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>0 - no</option>
+                <option>1 - yes</option>
+              </select>
+            </div>
           </form>
         </div>
       </div>
