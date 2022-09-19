@@ -12,8 +12,9 @@ function App() {
     <div>
       <Header />
       <Body />
-      <SchoolLogin />
       <SchoolRegister />
+      <SchoolLogin />
+
       <AdminLogin />
       <DetailsForm />
     </div>

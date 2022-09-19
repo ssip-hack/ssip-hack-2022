@@ -9,20 +9,21 @@ export default class FinancialDetails extends Component {
           <h1 id="financial_details">Financial Details</h1>
           <hr />
           <form>
-            
-            
-          <div class="col-auto my-1">
-              <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Family Annual Income: &nbsp;</label>
-              <select class="custom-select mr-sm-2 col-5" id="inlineFormCustomSelect">
+            <div class="col-auto my-1">
+              <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">
+                Family Annual Income: &nbsp;
+              </label>
+              <select
+                class="custom-select mr-sm-2 col-5"
+                id="inlineFormCustomSelect"
+              >
                 <option>0 - (0 to 2,50,000)</option>
                 <option>1 - (2,50,000 to 6,00,000)</option>
                 <option>2 - (greater than 6,00,000)</option>
               </select>
             </div>
 
-            <label>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Debt:&nbsp;&nbsp;
-            </label>
+            <label>Debt:&nbsp;&nbsp;</label>
             <div class="form-check form-check-inline">
               <input
                 class="form-check-input"
@@ -47,11 +48,9 @@ export default class FinancialDetails extends Component {
                 0 - no
               </label>
             </div>
-          <br />
-            
-            <label>
-              BPL benefitiary:&nbsp;&nbsp;
-            </label>
+            <br />
+
+            <label>BPL beneficiary:&nbsp;&nbsp;</label>
             <div class="form-check form-check-inline">
               <input
                 class="form-check-input"

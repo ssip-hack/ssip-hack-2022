@@ -85,6 +85,24 @@ export default class SchoolRegister extends Component {
                   <input type="text" class="form-control" id="inputZip" />
                 </div>
               </div>
+
+              <div class="form-group row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">
+                  Contact No.
+                </label>
+                <div class="col-sm-4">
+                  <input type="mobile" class="form-control" />
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">
+                  Contact Email.
+                </label>
+                <div class="col-sm-4">
+                  <input type="number" class="form-control" />
+                </div>
+              </div>
+
               <div className="row">
                 <div class="form-group col-md-6">
                   <label for="inputPassword4">Password</label>

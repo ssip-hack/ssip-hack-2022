@@ -39,6 +39,10 @@ export default class StudentDetails extends Component {
               Date Of Birth: &nbsp;
             </label>
             <input type="date" />
+            <label class="form-check-label" for="inlineRadio1">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Age:
+            </label>
+            <input type="number" disabled />
             <br />
             {/* gender input */}
             <label>
