@@ -178,7 +178,7 @@ export default class StudentDetails extends Component {
             </div>
 
             <label>
-              No. Of Siblings:&nbsp;&nbsp;
+              No. Of Siblings:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </label>
             <div class="form-check form-check-inline">
               <input
@@ -221,7 +221,7 @@ export default class StudentDetails extends Component {
             <br />
 
             <label>
-              Drug addiction:&nbsp;&nbsp;
+              Drug addiction:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </label>
             <div class="form-check form-check-inline">
               <input

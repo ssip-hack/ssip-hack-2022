@@ -55,8 +55,8 @@ export default class AcademicDetails extends Component {
             </div>
 
             <div class="row my-1">
-              <label class="mr-sm-2 col-3 sr-only" for="inlineFormCustomSelect">Grade in previous year: &nbsp;</label>
-              <div className="col-3">
+              <label class="mr-sm-2 col-auto sr-only" for="inlineFormCustomSelect">Grade in previous year:</label>
+              <div className="col-4">
                 <input
                   type="text"
                   class="form-control col-auto"
@@ -77,7 +77,7 @@ export default class AcademicDetails extends Component {
             </div>
 
             <label>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Out of the school child:&nbsp;&nbsp;&nbsp;&nbsp;
+              Out of the school child:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </label>
             <div class="form-check form-check-inline">
               <input
@@ -134,7 +134,7 @@ export default class AcademicDetails extends Component {
 
 
             <label>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scholarship Holder:&nbsp;&nbsp;
+              Scholarship Holder:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </label>
             <div class="form-check form-check-inline">
               <input
