@@ -22,13 +22,27 @@ export default class StudentDetails extends Component {
                 <input
                   type="text"
                   class="form-control"
+                  placeholder="Father's name"
+                />
+              </div>
+              <div class="col">
+                <input
+                  type="text"
+                  class="form-control"
                   placeholder="Last name"
                 />
               </div>
             </div>
+            {/* date of birth */}
+
+            <label class="form-check-label" for="inlineRadio1">
+              Date Of Birth: &nbsp;
+            </label>
+            <input type="date" />
+            <br />
             {/* gender input */}
             <label>
-              <b>Gender:&nbsp;&nbsp;</b>
+              Gender:&nbsp;&nbsp;&nbsp;
             </label>
             <div class="form-check form-check-inline">
               <input
@@ -54,18 +68,10 @@ export default class StudentDetails extends Component {
                 Female
               </label>
             </div>
-            {/* date of birth */}
-            <div class="form-check form-check-inline">
-              <label class="form-check-label" for="inlineRadio1">
-                <b>Date Of Birth: &nbsp;</b>
-              </label>
-              <input type="date" />
-            </div>
-            <br />
 
             {/* orphan */}
             <label>
-              <b>orphan:&nbsp;&nbsp;</b>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Orphan:&nbsp;&nbsp;
             </label>
             <div class="form-check form-check-inline">
               <input
@@ -135,7 +141,7 @@ export default class StudentDetails extends Component {
 
             {/* CWSN */}
             <label>
-              <b>CWSN:&nbsp;&nbsp;</b>
+              CWSN:&nbsp;&nbsp;
             </label>
             <div class="form-check form-check-inline">
               <input
@@ -172,7 +178,7 @@ export default class StudentDetails extends Component {
             </div>
 
             <label>
-              <b>No. Of Siblings:&nbsp;&nbsp;</b>
+              No. Of Siblings:&nbsp;&nbsp;
             </label>
             <div class="form-check form-check-inline">
               <input
@@ -215,7 +221,7 @@ export default class StudentDetails extends Component {
             <br />
 
             <label>
-              <b>drug addiction:&nbsp;&nbsp;</b>
+              Drug addiction:&nbsp;&nbsp;
             </label>
             <div class="form-check form-check-inline">
               <input

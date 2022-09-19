@@ -9,32 +9,72 @@ export default class FinancialDetails extends Component {
           <h1 id="financial_details">Financial Details</h1>
           <hr />
           <form>
-            <div class="form-group">
-              <label for="exampleFormControlSelect1">
-                Family Annual Income
-              </label>
-              <select class="form-control" id="exampleFormControlSelect1">
-                {/* 0-(10000,250000), 1-(250000, 600000), 2-(>600000) */}
+            
+            
+          <div class="col-auto my-1">
+              <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Family Annual Income: &nbsp;</label>
+              <select class="custom-select mr-sm-2 col-5" id="inlineFormCustomSelect">
                 <option>0 - (0 to 2,50,000)</option>
                 <option>1 - (2,50,000 to 6,00,000)</option>
                 <option>2 - (greater than 6,00,000)</option>
               </select>
             </div>
 
-            <div class="form-group">
-              <label for="exampleFormControlSelect1">Debt</label>
-              <select class="form-control" id="exampleFormControlSelect1">
-                <option>1 - yes</option>
-                <option>0 - no</option>
-              </select>
+            <label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Debt:&nbsp;&nbsp;
+            </label>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio1"
+                value="option1"
+              />
+              <label class="form-check-label" for="inlineRadio1">
+                1 - yes
+              </label>
             </div>
-
-            <div class="form-group">
-              <label for="exampleFormControlSelect1">BPL benefitiary</label>
-              <select class="form-control" id="exampleFormControlSelect1">
-                <option>1 - yes</option>
-                <option>0 - no</option>
-              </select>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio2"
+                value="option2"
+              />
+              <label class="form-check-label" for="inlineRadio2">
+                0 - no
+              </label>
+            </div>
+          <br />
+            
+            <label>
+              BPL benefitiary:&nbsp;&nbsp;
+            </label>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio1"
+                value="option1"
+              />
+              <label class="form-check-label" for="inlineRadio1">
+                1 - yes
+              </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio2"
+                value="option2"
+              />
+              <label class="form-check-label" for="inlineRadio2">
+                0 - no
+              </label>
             </div>
             <hr />
           </form>

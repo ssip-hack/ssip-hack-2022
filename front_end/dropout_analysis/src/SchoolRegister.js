@@ -7,7 +7,7 @@ export default class SchoolRegister extends Component {
         <div className="row">
           <div className="col-3"></div>
           <div className="col-6 bg-light container">
-            <h1>Register the School</h1>
+            <h1>Register the school</h1>
             <hr />
             <form>
               <div class="form-row">
@@ -81,7 +81,7 @@ export default class SchoolRegister extends Component {
                   <input type="text" class="form-control" id="inputCity" />
                 </div>
                 <div class="form-group col-md-2">
-                  <label for="inputZip">PinCode</label>
+                  <label for="inputZip">Pincode</label>
                   <input type="text" class="form-control" id="inputZip" />
                 </div>
               </div>
