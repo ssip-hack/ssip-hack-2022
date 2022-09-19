@@ -35,7 +35,7 @@ export default class AcademicDetails extends Component {
 
             <div class="col-auto my-1">
               <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Academic Stream: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-              <select class="custom-select mr-sm-2 col-5" id="inlineFormCustomSelect">
+              <select class="custom-select mr-sm-2 col-4" id="inlineFormCustomSelect">
                 <option>0 - Art</option>
                 <option>1 - Science</option>
                 <option>2 - Commerce</option>
@@ -46,7 +46,7 @@ export default class AcademicDetails extends Component {
 
             <div class="col-auto my-1">
               <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Status in previous year: &nbsp;</label>
-              <select class="custom-select mr-sm-2 col-5" id="inlineFormCustomSelect">
+              <select class="custom-select mr-sm-2 col-4" id="inlineFormCustomSelect">
                 <option>0 - Studied at Current/Same School</option>
                 <option>1 - Studied at Other School</option>
                 <option>3 - Anganwadi/ ECCE Centre</option>
@@ -55,16 +55,29 @@ export default class AcademicDetails extends Component {
             </div>
 
             <div class="row my-1">
-              <label class="mr-sm-2 col-auto sr-only" for="inlineFormCustomSelect">Grade in previous year: &nbsp;</label>
-              <input
-                type="text"
-                class="form-control col-auto"
-                placeholder="Previous year Grades"
-              />
+              <label class="mr-sm-2 col-3 sr-only" for="inlineFormCustomSelect">Grade in previous year: &nbsp;</label>
+              <div className="col-3">
+                <input
+                  type="text"
+                  class="form-control col-auto"
+                  placeholder="Previous year Grades"
+                /></div>
+            </div>
+
+
+            <div class="col-auto my-1">
+              <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Result in previous year type: &nbsp;</label>
+              <select class="custom-select mr-sm-2 col-4" id="inlineFormCustomSelect">
+
+                <option>1-Promoted/Passed</option>
+                <option>2-Promoted/Passed with grace</option>
+                <option>3-Detained/Repeater/Not Passed</option>
+                <option>4-Promoted/Passed without Examination</option>
+              </select>
             </div>
 
             <label>
-              Out of the school child:&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Out of the school child:&nbsp;&nbsp;&nbsp;&nbsp;
             </label>
             <div class="form-check form-check-inline">
               <input
@@ -117,22 +130,11 @@ export default class AcademicDetails extends Component {
               <label class="form-check-label" for="inlineRadio2">
                 0 - no
               </label>
-            </div>
+            </div><br />
 
-
-            <div class="col-auto my-1">
-              <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Result in previous year type: &nbsp;</label>
-              <select class="custom-select mr-sm-2 col-5" id="inlineFormCustomSelect">
-
-                <option>1-Promoted/Passed</option>
-                <option>2-Promoted/Passed with grace</option>
-                <option>3-Detained/Repeater/Not Passed</option>
-                <option>4-Promoted/Passed without Examination</option>
-              </select>
-            </div>
 
             <label>
-              Scholarship Holder:&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scholarship Holder:&nbsp;&nbsp;
             </label>
             <div class="form-check form-check-inline">
               <input
@@ -159,13 +161,14 @@ export default class AcademicDetails extends Component {
               </label>
             </div>
 
-            <div className="col-auto">
-              <label>Suspension Days</label>
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Suspension Days"
-              />
+            <div class="row my-1">
+              <label class="mr-sm-2 col-auto sr-only" for="inlineFormCustomSelect">Suspension days: &nbsp;</label>
+              <div className="col-4">
+                <input
+                  type="text"
+                  class="form-control col-auto"
+                  placeholder="Suspension days"
+                /></div>
             </div>
 
             <label>

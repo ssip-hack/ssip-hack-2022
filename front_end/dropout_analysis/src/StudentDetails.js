@@ -42,7 +42,7 @@ export default class StudentDetails extends Component {
             <br />
             {/* gender input */}
             <label>
-              Gender:&nbsp;&nbsp;&nbsp;
+              Gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </label>
             <div class="form-check form-check-inline">
               <input
@@ -141,7 +141,7 @@ export default class StudentDetails extends Component {
 
             {/* CWSN */}
             <label>
-              CWSN:&nbsp;&nbsp;
+              CWSN:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </label>
             <div class="form-check form-check-inline">
               <input
