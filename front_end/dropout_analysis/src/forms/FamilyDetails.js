@@ -58,7 +58,7 @@ export default class FamilyDetails extends Component {
               <input
                 class="form-check-input"
                 type="radio"
-                name="inlineRadioOptions"
+                name="a1"
                 id="inlineRadio1"
                 value="option1"
               />
@@ -70,7 +70,7 @@ export default class FamilyDetails extends Component {
               <input
                 class="form-check-input"
                 type="radio"
-                name="inlineRadioOptions"
+                name="a1"
                 id="inlineRadio2"
                 value="option2"
               />
@@ -87,7 +87,7 @@ export default class FamilyDetails extends Component {
               <input
                 class="form-check-input"
                 type="radio"
-                name="inlineRadioOptions"
+                name="b1"
                 id="inlineRadio1"
                 value="option1"
               />
@@ -99,7 +99,7 @@ export default class FamilyDetails extends Component {
               <input
                 class="form-check-input"
                 type="radio"
-                name="inlineRadioOptions"
+                name="b1"
                 id="inlineRadio2"
                 value="option2"
               />
@@ -109,7 +109,7 @@ export default class FamilyDetails extends Component {
             </div>
 
             <div class="col-auto my-1">
-              <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Father's Occupation: &nbsp;&nbsp;&nbsp;</label>
+              <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Father's Qualification: &nbsp;&nbsp;&nbsp;</label>
               <select class="custom-select mr-sm-2 col-5" id="inlineFormCustomSelect">
                 <option>0 - primary</option>
                 <option>1 - secondary</option>
@@ -122,7 +122,7 @@ export default class FamilyDetails extends Component {
 
             
             <div class="col-auto my-1">
-              <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Mother's Occupation: &nbsp;</label>
+              <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Mother's Qualification: &nbsp;</label>
               <select class="custom-select mr-sm-2 col-5" id="inlineFormCustomSelect">
                 <option>0 - primary</option>
                 <option>1 - secondary</option>
