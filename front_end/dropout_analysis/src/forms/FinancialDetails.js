@@ -28,7 +28,7 @@ export default class FinancialDetails extends Component {
               <input
                 class="form-check-input"
                 type="radio"
-                name="inlineRadioOptions"
+                name="a"
                 id="inlineRadio1"
                 value="option1"
               />
@@ -40,7 +40,7 @@ export default class FinancialDetails extends Component {
               <input
                 class="form-check-input"
                 type="radio"
-                name="inlineRadioOptions"
+                name="a"
                 id="inlineRadio2"
                 value="option2"
               />
@@ -55,7 +55,7 @@ export default class FinancialDetails extends Component {
               <input
                 class="form-check-input"
                 type="radio"
-                name="inlineRadioOptions"
+                name="b"
                 id="inlineRadio1"
                 value="option1"
               />
@@ -67,7 +67,7 @@ export default class FinancialDetails extends Component {
               <input
                 class="form-check-input"
                 type="radio"
-                name="inlineRadioOptions"
+                name="b"
                 id="inlineRadio2"
                 value="option2"
               />

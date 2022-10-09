@@ -52,7 +52,7 @@ export default class StudentDetails extends Component {
               <input
                 class="form-check-input"
                 type="radio"
-                name="inlineRadioOptions"
+                name="gender"
                 id="inlineRadio1"
                 value="option1"
               />
@@ -64,7 +64,7 @@ export default class StudentDetails extends Component {
               <input
                 class="form-check-input"
                 type="radio"
-                name="inlineRadioOptions"
+                name="gender"
                 id="inlineRadio2"
                 value="option2"
               />
@@ -72,20 +72,20 @@ export default class StudentDetails extends Component {
                 Female
               </label>
             </div>
-
+            <br/>
             {/* orphan */}
             <label>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Orphan:&nbsp;&nbsp;
+              Orphan:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </label>
             <div class="form-check form-check-inline">
               <input
                 class="form-check-input"
                 type="radio"
-                name="inlineRadioOptions"
-                id="inlineRadio1"
-                value="option1"
+                name="orphan"
+                id="inlineRadio3"
+                value="option3"
               />
-              <label class="form-check-label" for="inlineRadio1">
+              <label class="form-check-label" for="inlineRadio3">
                 yes
               </label>
             </div>
@@ -93,11 +93,11 @@ export default class StudentDetails extends Component {
               <input
                 class="form-check-input"
                 type="radio"
-                name="inlineRadioOptions"
-                id="inlineRadio2"
-                value="option2"
+                name="orphan"
+                id="inlineRadio4"
+                value="option4"
               />
-              <label class="form-check-label" for="inlineRadio2">
+              <label class="form-check-label" for="inlineRadio4">
                 no
               </label>
             </div>
@@ -151,7 +151,7 @@ export default class StudentDetails extends Component {
               <input
                 class="form-check-input"
                 type="radio"
-                name="inlineRadioOptions"
+                name="CWSN"
                 id="inlineRadio1"
                 value="option1"
               />
@@ -163,7 +163,7 @@ export default class StudentDetails extends Component {
               <input
                 class="form-check-input"
                 type="radio"
-                name="inlineRadioOptions"
+                name="CWSN"
                 id="inlineRadio2"
                 value="option2"
               />
@@ -188,7 +188,7 @@ export default class StudentDetails extends Component {
               <input
                 class="form-check-input"
                 type="radio"
-                name="inlineRadioOptions"
+                name="s1"
                 id="inlineRadio1"
                 value="option1"
               />
@@ -200,7 +200,7 @@ export default class StudentDetails extends Component {
               <input
                 class="form-check-input"
                 type="radio"
-                name="inlineRadioOptions"
+                name="s1"
                 id="inlineRadio2"
                 value="option2"
               />
@@ -213,7 +213,7 @@ export default class StudentDetails extends Component {
               <input
                 class="form-check-input"
                 type="radio"
-                name="inlineRadioOptions"
+                name="s1"
                 id="inlineRadio2"
                 value="option2"
               />
@@ -231,7 +231,7 @@ export default class StudentDetails extends Component {
               <input
                 class="form-check-input"
                 type="radio"
-                name="inlineRadioOptions"
+                name="d1"
                 id="inlineRadio1"
                 value="option1"
               />
@@ -243,7 +243,7 @@ export default class StudentDetails extends Component {
               <input
                 class="form-check-input"
                 type="radio"
-                name="inlineRadioOptions"
+                name="d1"
                 id="inlineRadio2"
                 value="option2"
               />

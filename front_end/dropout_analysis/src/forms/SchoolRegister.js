@@ -31,56 +31,45 @@ export default class SchoolRegister extends Component {
                 />
               </div>
               <div class="form-row row">
-                <div class="form-group col-md-4">
-                  <label for="inputState">State</label>
-                  <select id="inputState" class="form-control">
-                    <option value="Andhra Pradesh">Andhra Pradesh</option>
-                    <option value="Andaman and Nicobar Islands">
-                      Andaman and Nicobar Islands
-                    </option>
-                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
-                    <option value="Assam">Assam</option>
-                    <option value="Bihar">Bihar</option>
-                    <option value="Chandigarh">Chandigarh</option>
-                    <option value="Chhattisgarh">Chhattisgarh</option>
-                    <option value="Dadar and Nagar Haveli">
-                      Dadar and Nagar Haveli
-                    </option>
-                    <option value="Daman and Diu">Daman and Diu</option>
-                    <option value="Delhi">Delhi</option>
-                    <option value="Lakshadweep">Lakshadweep</option>
-                    <option value="Puducherry">Puducherry</option>
-                    <option value="Goa">Goa</option>
-                    <option value="Gujarat">Gujarat</option>
-                    <option value="Haryana">Haryana</option>
-                    <option value="Himachal Pradesh">Himachal Pradesh</option>
-                    <option value="Jammu and Kashmir">Jammu and Kashmir</option>
-                    <option value="Jharkhand">Jharkhand</option>
-                    <option value="Karnataka">Karnataka</option>
-                    <option value="Kerala">Kerala</option>
-                    <option value="Madhya Pradesh">Madhya Pradesh</option>
-                    <option value="Maharashtra">Maharashtra</option>
-                    <option value="Manipur">Manipur</option>
-                    <option value="Meghalaya">Meghalaya</option>
-                    <option value="Mizoram">Mizoram</option>
-                    <option value="Nagaland">Nagaland</option>
-                    <option value="Odisha">Odisha</option>
-                    <option value="Punjab">Punjab</option>
-                    <option value="Rajasthan">Rajasthan</option>
-                    <option value="Sikkim">Sikkim</option>
-                    <option value="Tamil Nadu">Tamil Nadu</option>
-                    <option value="Telangana">Telangana</option>
-                    <option value="Tripura">Tripura</option>
-                    <option value="Uttar Pradesh">Uttar Pradesh</option>
-                    <option value="Uttarakhand">Uttarakhand</option>
-                    <option value="West Bengal">West Bengal</option>
+                <div class="form-group col-md-5">
+                  <label for="inputCity">Disctrict</label>
+                  {/* <input type="text" class="form-control" id="inputCity" /> */}
+                  <select id="inputCity" class="form-control">
+                     <option value="Ahmedabad">Ahmedabad</option>
+                      <option value="amreli">amreli</option>
+                      <option value="Anand">Anand</option>
+                      <option value="Aravalli">Aravalli</option>
+                      <option value="Banaskantha (Palanpur)">Banaskantha (Palanpur)</option>
+                      <option value="Bharuch">Bharuch</option>
+                      <option value="Bhavnagar">Bhavnagar</option>
+                      <option value="Cured">Cured</option>
+                      <option value="Chhota Udepur">Chhota Udepur</option>
+                      <option value="Dahod">Dahod</option>
+                      <option value="Dangs (Ahwa)">Dangs (Ahwa)</option>
+                      <option value="Devbhoomi Dwarka">Devbhoomi Dwarka</option>
+                      <option value="Gandhinagar">Gandhinagar</option>
+                      <option value="Gir Somnath">Gir Somnath</option>
+                      <option value="Jamnagar">Jamnagar</option>
+                      <option value="Junagadh">Junagadh</option>
+                      <option value="Kachchh">Kachchh</option>
+                      <option value="Kheda (Nadiad)">Kheda (Nadiad)</option>
+                      <option value="Mahisagar">Mahisagar</option>
+                      <option value="Mehsana">Mehsana</option>
+                      <option value="Diseases">Diseases</option>
+                      <option value="Narmada (Rajpipla)">Narmada (Rajpipla)</option>
+                      <option value="Navsari">Navsari</option>
+                      <option value="Panchmahal (Godhra)">Panchmahal (Godhra)</option>
+                      <option value="Patan">Patan</option>
+                      <option value="Porbandar">Porbandar</option>
+                      <option value="Rajkot">Rajkot</option>
+                      <option value="Sabarkantha (Himmatnagar)">Sabarkantha (Himmatnagar)</option>
+                      <option value="Surat">Surat</option>
+                      <option value="Surendranagar">Surendranagar</option>
+                      <option value="Tapi (Vyara)">Tapi (Vyara)</option>
+                      <option value="Valsad">Valsad</option>
                   </select>
                 </div>
-                <div class="form-group col-md-6">
-                  <label for="inputCity">Disctrict</label>
-                  <input type="text" class="form-control" id="inputCity" />
-                </div>
-                <div class="form-group col-md-2">
+                <div class="form-group col-md-3">
                   <label for="inputZip">Pincode</label>
                   <input type="text" class="form-control" id="inputZip" />
                 </div>
