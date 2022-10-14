@@ -5,7 +5,7 @@ import DetailsForm from "./forms/DetailsForm";
 import GeographicDetails from "./GeographicDetails";
 import Header from "./Header";
 import SchoolLogin from "./SchoolLogin";
-import SchoolRegister from "./forms/SchoolRegister";
+import SchoolRegister from "./SchoolRegister";
 import home from "./home";
 
 
