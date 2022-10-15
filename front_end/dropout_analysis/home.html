@@ -1,212 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="src/App.css">
-    <link rel="stylesheet" href="src/index.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
-        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <header class="p-3 text-bg-light">
-        <div class="container">
-            <div class="box d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-     
-                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li>
-                        <a href="#" class="nav-link px-2 text-secondary">
-                            Dropout Analysis
-                        </a>
-                    </li>
-                </ul>
-    
-                <div class="text-end">
-                    <button type="button" class="btn btn-outline-light me-2">
-                        <a href="#student_login">Student Login</a>
-                    </button>
-                    <button type="button" class="btn btn-outline-light me-2">
-                        <a href="#admin_login">Admin Login</a>
-                    </button>
-                    <button type="button" class="btn btn-outline-light me-2">
-                        <a href="#school_login">School Login</a>
-                    </button>
-                    <button type="button" class="btn btn-warning">
-                        <a href="inputForm.html">Register School</a>
-                        
-                    </button>
-                </div>
-            </div>
+      <div class="container">
+        <div
+          class="box d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+        >
+          <ul
+            class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+          >
+            <li>
+              <a href="#" class="nav-link px-2 text-secondary">
+                Dropout Analysis
+              </a>
+            </li>
+          </ul>
+
+          <div class="text-end">
+            <button type="button" class="btn btn-outline-light me-2">
+              <a href="#student_login">Student Login</a>
+            </button>
+            <button type="button" class="btn btn-outline-light me-2">
+              <a href="#admin_login">Admin Login</a>
+            </button>
+            <button type="button" class="btn btn-outline-light me-2">
+              <a href="#school_login">School Login</a>
+            </button>
+            <button type="button" class="btn btn-warning">
+              <a href="inputForm.html">Register School</a>
+            </button>
+          </div>
         </div>
+      </div>
     </header>
 
     <!--  -->
 
-    <div class="text-center school-login-body" data-new-gr-c-s-check-loaded="14.1080.0" data-gr-ext-installed="">
+    <div class="text-center school-login-body">
+      <div className="col-3"></div>
+      <div className="col-6">
+        <main class="form-signin m-auto">
+          <form>
+            <h1 id="school_login" class="h3 mb-3 fw-normal">
+              Sign in as a school
+            </h1>
+
+            <div class="form-floating">
+              <input
+                type=""
+                class="form-control"
+                id="floatingInput"
+                placeholder="school code"
+              />
+              <br />
+              <label for="floatingInput">School Code</label>
+            </div>
+            <div class="form-floating">
+              <input
+                type="password"
+                class="form-control"
+                id="floatingPassword"
+                placeholder="Password"
+              />
+              <br />
+              <label for="floatingPassword">Password</label>
+            </div>
+
+            <button
+              class="w-100 btn btn-lg btn-primary submit-button"
+              type="submit"
+            >
+              Sign in
+            </button>
+          </form>
+        </main>
         <div className="col-3"></div>
-        <div className="col-6">
-            <main class="form-signin m-auto">
-                <form>
-                    <h1 id="school_login" class="h3 mb-3 fw-normal">
-                        Sign in as a school
-                    </h1>
-    
-                    <div class="form-floating">
-                        <input type="" class="form-control" id="floatingInput" placeholder="school code" />
-                        <br />
-                        <label for="floatingInput">School Code</label>
-                    </div>
-                    <div class="form-floating">
-                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" />
-                        <br />
-                        <label for="floatingPassword">Password</label>
-                    </div>
-    
-                    <button class="w-100 btn btn-lg btn-primary submit-button" type="submit">
-                        Sign in
-                    </button>
-                </form>
-            </main>
-        <div className="col-3"></div>
-        </div>
+      </div>
     </div>
 
     <!--  -->
 
-    <div class="text-center admin-login-body row" data-new-gr-c-s-check-loaded="14.1080.0" data-gr-ext-installed="">
-        <div className="col-3"></div>
-        <div className="col-6 bg-light">
-            <main class="form-signin w-100 m-auto">
-                <form>
-                    <h1 class="h3 mb-3 fw-normal" id="admin_login">
-                        Sign in as an Admin
-                    </h1>
-    
-                    <div class="form-floating">
-                        <input type="" class="form-control" id="floatingInput" placeholder="school code" />
-                        <br />
-                        <label for="floatingInput">User Code</label>
-                    </div>
-                    <div class="form-floating">
-                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" />
-                        <br />
-                        <label for="floatingPassword">Password</label>
-                    </div>
-    
-                    <button class="w-100 btn btn-lg btn-primary submit-button" type="submit">
-                        Sign in
-                    </button>
-                </form>
-            </main>
-        </div>
+    <div
+      class="text-center admin-login-body row"
+      data-new-gr-c-s-check-loaded="14.1080.0"
+      data-gr-ext-installed=""
+    >
+      <div className="col-3"></div>
+      <div className="col-6 bg-light">
+        <main class="form-signin w-100 m-auto">
+          <form>
+            <h1 class="h3 mb-3 fw-normal" id="admin_login">
+              Sign in as an Admin
+            </h1>
+
+            <div class="form-floating">
+              <input
+                type=""
+                class="form-control"
+                id="floatingInput"
+                placeholder="school code"
+              />
+              <br />
+              <label for="floatingInput">User Code</label>
+            </div>
+            <div class="form-floating">
+              <input
+                type="password"
+                class="form-control"
+                id="floatingPassword"
+                placeholder="Password"
+              />
+              <br />
+              <label for="floatingPassword">Password</label>
+            </div>
+
+            <button
+              class="w-100 btn btn-lg btn-primary submit-button"
+              type="submit"
+            >
+              Sign in
+            </button>
+          </form>
+        </main>
+      </div>
     </div>
 
     <!--  -->
 
     <div className="school-register  text-dark">
-        <div className="row">
-            <div className="col-3"></div>
-            <div className="col-6 bg-light container">
-                <h1>Register the school</h1>
-                <hr />
-                <form>
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label for="name_of_the_school">Name of the school</label>
-                            <input type="text" class="form-control" id="name_of_the_school"
-                                placeholder="Name of the school" />
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputAddress">Address</label>
-                        <input type="text" class="form-control" id="inputAddress" placeholder="Address of the school" />
-                    </div>
-                    <div class="form-row row">
-                        <div class="form-group col-md-5">
-                            <label for="inputCity">Disctrict</label>
-                            {/* <input type="text" class="form-control" id="inputCity" /> */}
-                            <select id="inputCity" class="form-control">
-                                <option value="Ahmedabad">Ahmedabad</option>
-                                <option value="amreli">amreli</option>
-                                <option value="Anand">Anand</option>
-                                <option value="Aravalli">Aravalli</option>
-                                <option value="Banaskantha (Palanpur)">Banaskantha (Palanpur)</option>
-                                <option value="Bharuch">Bharuch</option>
-                                <option value="Bhavnagar">Bhavnagar</option>
-                                <option value="Cured">Cured</option>
-                                <option value="Chhota Udepur">Chhota Udepur</option>
-                                <option value="Dahod">Dahod</option>
-                                <option value="Dangs (Ahwa)">Dangs (Ahwa)</option>
-                                <option value="Devbhoomi Dwarka">Devbhoomi Dwarka</option>
-                                <option value="Gandhinagar">Gandhinagar</option>
-                                <option value="Gir Somnath">Gir Somnath</option>
-                                <option value="Jamnagar">Jamnagar</option>
-                                <option value="Junagadh">Junagadh</option>
-                                <option value="Kachchh">Kachchh</option>
-                                <option value="Kheda (Nadiad)">Kheda (Nadiad)</option>
-                                <option value="Mahisagar">Mahisagar</option>
-                                <option value="Mehsana">Mehsana</option>
-                                <option value="Diseases">Diseases</option>
-                                <option value="Narmada (Rajpipla)">Narmada (Rajpipla)</option>
-                                <option value="Navsari">Navsari</option>
-                                <option value="Panchmahal (Godhra)">Panchmahal (Godhra)</option>
-                                <option value="Patan">Patan</option>
-                                <option value="Porbandar">Porbandar</option>
-                                <option value="Rajkot">Rajkot</option>
-                                <option value="Sabarkantha (Himmatnagar)">Sabarkantha (Himmatnagar)</option>
-                                <option value="Surat">Surat</option>
-                                <option value="Surendranagar">Surendranagar</option>
-                                <option value="Tapi (Vyara)">Tapi (Vyara)</option>
-                                <option value="Valsad">Valsad</option>
-                            </select>
-                        </div>
-                        <div class="form-group col-md-3">
-                            <label for="inputZip">Pincode</label>
-                            <input type="text" class="form-control" id="inputZip" />
-                        </div>
-                    </div>
-    
-                    <div class="form-group row">
-                        <label for="inputPassword" class="col-sm-2 col-form-label">
-                            Contact No.
-                        </label>
-                        <div class="col-sm-4">
-                            <input type="mobile" class="form-control" />
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="inputPassword" class="col-sm-2 col-form-label">
-                            Contact Email.
-                        </label>
-                        <div class="col-sm-4">
-                            <input type="number" class="form-control" />
-                        </div>
-                    </div>
-    
-                    <div className="row">
-                        <div class="form-group col-md-6">
-                            <label for="inputPassword4">Password</label>
-                            <input type="password" class="form-control" id="inputPassword4" placeholder="Password" />
-                        </div>
-                        <div className="col-6">
-                            <label for="inputPassword4">Confirm Password</label>
-                            <input type="password" class="form-control" id="inputPassword4" placeholder="Password" />
-                        </div>
-                    </div>
-                    <br />
-                    <button type="submit" class="btn btn-primary">
-                        Register
-                    </button>
-                </form>
+      <div className="row">
+        <div className="col-3"></div>
+        <div className="col-6 bg-light container">
+          <h1>Register the school</h1>
+          <hr />
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="name_of_the_school">Name of the school</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name_of_the_school"
+                  placeholder="Name of the school"
+                />
+              </div>
             </div>
-            <div className="col-3"></div>
+            <div class="form-group">
+              <label for="inputAddress">Address</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputAddress"
+                placeholder="Address of the school"
+              />
+            </div>
+            <div class="form-row row">
+              <div class="form-group col-md-5">
+                <label for="inputCity">Disctrict</label>
+                {/*
+                <input type="text" class="form-control" id="inputCity" /> */}
+                <select id="inputCity" class="form-control">
+                  <option value="Ahmedabad">Ahmedabad</option>
+                  <option value="amreli">amreli</option>
+                  <option value="Anand">Anand</option>
+                  <option value="Aravalli">Aravalli</option>
+                  <option value="Banaskantha (Palanpur)">
+                    Banaskantha (Palanpur)
+                  </option>
+                  <option value="Bharuch">Bharuch</option>
+                  <option value="Bhavnagar">Bhavnagar</option>
+                  <option value="Cured">Cured</option>
+                  <option value="Chhota Udepur">Chhota Udepur</option>
+                  <option value="Dahod">Dahod</option>
+                  <option value="Dangs (Ahwa)">Dangs (Ahwa)</option>
+                  <option value="Devbhoomi Dwarka">Devbhoomi Dwarka</option>
+                  <option value="Gandhinagar">Gandhinagar</option>
+                  <option value="Gir Somnath">Gir Somnath</option>
+                  <option value="Jamnagar">Jamnagar</option>
+                  <option value="Junagadh">Junagadh</option>
+                  <option value="Kachchh">Kachchh</option>
+                  <option value="Kheda (Nadiad)">Kheda (Nadiad)</option>
+                  <option value="Mahisagar">Mahisagar</option>
+                  <option value="Mehsana">Mehsana</option>
+                  <option value="Diseases">Diseases</option>
+                  <option value="Narmada (Rajpipla)">Narmada (Rajpipla)</option>
+                  <option value="Navsari">Navsari</option>
+                  <option value="Panchmahal (Godhra)">
+                    Panchmahal (Godhra)
+                  </option>
+                  <option value="Patan">Patan</option>
+                  <option value="Porbandar">Porbandar</option>
+                  <option value="Rajkot">Rajkot</option>
+                  <option value="Sabarkantha (Himmatnagar)">
+                    Sabarkantha (Himmatnagar)
+                  </option>
+                  <option value="Surat">Surat</option>
+                  <option value="Surendranagar">Surendranagar</option>
+                  <option value="Tapi (Vyara)">Tapi (Vyara)</option>
+                  <option value="Valsad">Valsad</option>
+                </select>
+              </div>
+              <div class="form-group col-md-3">
+                <label for="inputZip">Pincode</label>
+                <input type="text" class="form-control" id="inputZip" />
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <label for="inputPassword" class="col-sm-2 col-form-label">
+                Contact No.
+              </label>
+              <div class="col-sm-4">
+                <input type="mobile" class="form-control" />
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputPassword" class="col-sm-2 col-form-label">
+                Contact Email.
+              </label>
+              <div class="col-sm-4">
+                <input type="number" class="form-control" />
+              </div>
+            </div>
+
+            <div className="row">
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="inputPassword4"
+                  placeholder="Password"
+                />
+              </div>
+              <div className="col-6">
+                <label for="inputPassword4">Confirm Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="inputPassword4"
+                  placeholder="Password"
+                />
+              </div>
+            </div>
+            <br />
+            <button type="submit" class="btn btn-primary">Register</button>
+          </form>
         </div>
+        <div className="col-3"></div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
