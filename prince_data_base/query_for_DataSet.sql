@@ -29,13 +29,15 @@ cwsn , mothers_occupation , fathers_occupation , mothers_qualification , fathers
 debt , mental_issues , results_in_previous_year_type , status_in_previous_year , dropout_student , age_group ,
 district , gender , label , dropout ) values (1,4,7,1,0,1,0,0,0,0,0,0,0,3,4,1,3,23,0,0,0);
 
-select * from final_data_set
+select * from students;
 
-select SUM(bpl_beneficiary) 
-from final_data_set 
+select age, count(if(age = 19, age, 0) ) as totalStudents  from students group by age;
+
+select SUM(bpl)
+from students 
 where orphan = 0 
 group by district 
-order by district ;
+order by district;
 
 select  count(orphan) , count(social_category) , count(minority_group) ,
  count(bpl_beneficiary) , count(ews_group) ,
