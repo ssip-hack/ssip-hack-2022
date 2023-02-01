@@ -1,4 +1,4 @@
-Location,Social Category,Girls,Boys,Overall,Girls,Boys,Overall,Girls,Boys,Overall
+Location,Social Category,PrimaryGirls,PrimaryBoys,PrimaryOverall,UpperGirls,UpperBoys,UpperOverall,SecondGirls,SecondBoys,SecondOverall
 AHMEDABAD,General,0,0,0,0,0,0,8.02,12.34,10.54
 AHMEDABAD,OBC,0.64,1.1,0.89,9.37,4.14,6.46,18.43,23.13,21.4
 AHMEDABAD,SC,0,0,0,0,4.13,1.26,0,10.65,6.08
