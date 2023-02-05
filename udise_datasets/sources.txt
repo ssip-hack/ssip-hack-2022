@@ -1,8 +1,0 @@
-Dataset -https://www.kaggle.com/discussions/general/74987
-
-https://www.kaggle.com/datasets/imrandude/studentdropindia2016
-
-https://www.kaggle.com/datasets/adarshsng/indian-student-state-wise-dropout-rate-dor
-
-https://www.kaggle.com/search?q=student+drop+in%3Adatasets
-
