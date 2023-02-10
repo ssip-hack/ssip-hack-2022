@@ -114,7 +114,7 @@ mydb = mysql.connector.connect(
 )
 cur = mydb.cursor()
 
-query1 = ''' insert into Prediction_Data values ({},{},{},{},{},{},{},{},{}) '''.format(gender['male'] , gender['female'] , socialcategory['general'] , socialcategory['obc'], socialcategory['sc']  , socialcategory['st'], school['Primary'] , school['Secondary'] , school['higher Secondary'])
+#query1 = ''' insert into Prediction_Data values ({},{},{},{},{},{},{},{},{}) '''.format(gender['male'] , gender['female'] , socialcategory['general'] , socialcategory['obc'], socialcategory['sc']  , socialcategory['st'], school['Primary'] , school['Secondary'] , school['higher Secondary'])
 cur.execute(query1)
 mydb.commit()
 mydb.close()
